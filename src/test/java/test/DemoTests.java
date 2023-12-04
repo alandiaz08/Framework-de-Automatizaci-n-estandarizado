@@ -12,14 +12,14 @@ public class DemoTests extends WebDriverManager{
 				description = "Verifica que el usuario pueda iniciar sesión y ver la lista de productos.")
 	public void test() {
 		// Datos
-		final String usuario = "fstandard_user";
+		final String usuario = "standard_user";
 		final String contraseña = "secret_sauce";
 
 		//Acto
 		LoginPagina loginPagina = new LoginPagina(driver);
 
 		loginPagina
-						.ingresarContraseña(usuario)
+						.ingresarUsuario(usuario)
 						.ingresarContraseña(contraseña)
 						.hacerClickEnIniciarSesion();
 
