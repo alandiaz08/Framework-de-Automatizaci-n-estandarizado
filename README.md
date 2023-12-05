@@ -18,7 +18,7 @@ brew cask install adoptopenjdk11
 brew cask install chromedriver
 
 # clonar el proyecto y lanzar las pruebas
-git clone https://github.com/alandiaz08/e2e-web-framework.git
+git clone https://github.com/alandiaz08/Framework-de-Automatizaci-n-estandarizado.git
 cd e2e-web-framework
 
 # Para Windows
